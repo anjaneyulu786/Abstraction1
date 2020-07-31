@@ -1,7 +1,7 @@
  abstract class Bike {  
    Bike () { System.out.println ("bike is created");
     }  
-   abstract void run();  
+   abstract void run ();  
    void changeGear () { System.out.println ("gear changed"); 
    }  
  }  
@@ -10,7 +10,7 @@
    }  
  }  
  class TestAbstraction1 {  
- public static void main (String args []) {  
+ public static void main ( String args [] ) {  
   Bike obj = new Honda ();  
   obj.run ();  
   obj.changeGear ();  
